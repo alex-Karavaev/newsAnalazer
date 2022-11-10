@@ -1,0 +1,12 @@
+.header__link_active-main {
+	flex-direction: column;
+	color: #ffffff;
+}
+.header__link_active-main::after {
+	content: '';
+	border-bottom: 3px solid #ffffff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
