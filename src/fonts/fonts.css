@@ -1,8 +1,16 @@
 @font-face {
-	font-family: 'RobotoSlab-Bold';
-	src: url(./RobotoSlab-Bold.ttf);
+	font-family: 'Roboto Slab';
+	src: url(./robotoslab-regular.woff);
 }
 @font-face {
-	font-family: 'Roboto-Medium';
-	src: url(./Roboto-Medium.ttf);
+	font-family: 'Roboto Medium';
+	src: url(./roboto-medium.woff);
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url(./roboto-regular.woff);
+}
+@font-face {
+	font-family: 'Sourcesanspro';
+	src: url(./sourcesanspro-regular.woff);
 }

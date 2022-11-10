@@ -1,0 +1,33 @@
+@import url(./__title/search__title.css);
+@import url(./__subtitle/search__subtitle.css);
+@import url(./__form/search__form.css);
+@import url(./__text/search__text.css);
+@import url(./__btn/search__btn.css);
+
+.search {
+	padding: 86px 16px 32px;
+	background-image: url(../../images/image.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+@media (min-width: 768px) {
+	.search {
+		padding: 104px 160px 48px;
+	}
+}
+@media (min-width: 1024px) {
+	.search {
+		padding: 104px 200px 48px;
+	}
+}
+@media (min-width: 1280px) {
+	.search {
+		padding: 104px 300px 70px;
+	}
+}
+@media (min-width: 1440px) {
+	.search {
+		padding: 160px 416px 80px;
+	}
+}

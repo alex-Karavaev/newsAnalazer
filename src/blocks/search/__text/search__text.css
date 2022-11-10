@@ -1,0 +1,24 @@
+.search__text {
+	padding: 0;
+	padding-left: 16px;
+	border: 0;
+	outline: none;
+	height: 56px;
+	border-radius: 100px;
+	margin-bottom: 16px;
+}
+.search__text::placeholder {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #b6bcbf;
+}
+@media (min-width: 768px) {
+	.search__text {
+		margin-bottom: 0;
+		flex-grow: 999;
+		margin-right: -50px;
+	}
+}
