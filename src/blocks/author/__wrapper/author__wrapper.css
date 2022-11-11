@@ -1,0 +1,21 @@
+.author__wrapper {
+	max-width: 288px;
+	padding: 32px 16px 10px;
+	margin: 0 auto;
+}
+@media (min-width: 768px) {
+	.author__wrapper {
+		max-width: 688px;
+		display: flex;
+	}
+}
+@media (min-width: 1024px) {
+	.author__wrapper {
+		max-width: 920px;
+	}
+}
+@media (min-width: 1280px) {
+	.author__wrapper {
+		max-width: 1220px;
+	}
+}
