@@ -1,0 +1,14 @@
+.card__news {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 22px;
+	color: #1a1b22;
+	margin: 0;
+	height: 88px;
+	overflow: hidden;
+}
+@media (min-width: 1280px) {
+	.card__news {
+		height: 110px;
+	}
+}

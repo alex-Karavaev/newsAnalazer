@@ -1,0 +1,18 @@
+.news__btn {
+	border: 0;
+	display: block;
+	width: 288px;
+	height: 56px;
+	border-radius: 100px;
+	margin: 28px auto 0;
+	font-family: 'Roboto Medium';
+	font-size: 18px;
+	line-height: 24px;
+	color: #1a1b22;
+	cursor: pointer;
+	background-color: #ffffff;
+}
+
+.news__btn:active {
+	opacity: 0.9;
+}

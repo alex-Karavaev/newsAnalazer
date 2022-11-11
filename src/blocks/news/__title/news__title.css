@@ -1,0 +1,10 @@
+.news__title {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 34px;
+	color: #1a1b22;
+	margin-top: 0;
+	margin-bottom: 16px;
+}

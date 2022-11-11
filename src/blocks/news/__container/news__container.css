@@ -1,0 +1,16 @@
+.news__container {
+	display: grid;
+	justify-content: center;
+	gap: 10px;
+}
+
+@media (min-width: 640px) {
+	.news__container {
+		grid-template-columns: repeat(2, max-content);
+	}
+}
+@media (min-width: 768px) {
+	.news__container {
+		grid-template-columns: repeat(3, max-content);
+	}
+}

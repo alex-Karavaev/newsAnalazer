@@ -1,0 +1,23 @@
+.card__img {
+	background-image: url(../../../images/image_08.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	height: 196px;
+}
+@media (min-width: 768px) {
+	.card__img {
+		height: 150px;
+	}
+}
+@media (min-width: 1024px) {
+	.card__img {
+		height: 196px;
+	}
+}
+@media (min-width: 1280px) {
+	.card__img {
+		height: 272px;
+	}
+}
