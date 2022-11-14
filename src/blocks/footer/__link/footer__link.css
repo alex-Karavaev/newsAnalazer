@@ -1,0 +1,9 @@
+.footer__link {
+	font-family: 'Source Sans';
+	font-style: normal;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 48px;
+	color: #1a1b22;
+}
