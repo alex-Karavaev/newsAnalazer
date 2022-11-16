@@ -1,10 +1,12 @@
 @import url(./__logo/header__logo.css);
 @import url(./__logo/_white/header__logo_white.css);
+@import url(./__logo/_black/header__logo_black.css);
 @import url(./__navigation/header__navigation.css);
 @import url(./__links/header__links.css);
 @import url(./__item/header__item.css);
 @import url(./__link/header__link.css);
-@import url(./__link/_active/header__link_active.css);
+@import url(./__link/_white/header__link_white.css);
+@import url(./__link/_black/header__link_black.css);
 
 .header {
 	display: flex;

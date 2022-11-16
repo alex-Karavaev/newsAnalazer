@@ -3,6 +3,10 @@ const entries = [
 		name: 'index',
 		entry: './src/index.js',
 	},
+	{
+		name: 'about',
+		entry: './src/pages/about.js',
+	},
 ]
 
 const htmlPages = [
@@ -13,8 +17,8 @@ const htmlPages = [
 	},
 	{
 		template: './src/pages/about.html',
-		filename: 'html/about.html',
-		chunks: [''],
+		filename: 'pages/about.html',
+		chunks: ['about'],
 	},
 ]
 

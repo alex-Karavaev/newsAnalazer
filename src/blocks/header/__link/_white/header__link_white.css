@@ -1,8 +1,8 @@
-.header__link_active-main {
+.header__link_white {
 	flex-direction: column;
 	color: #ffffff;
 }
-.header__link_active-main::after {
+.header__link_white::after {
 	content: '';
 	border-bottom: 3px solid #ffffff;
 	position: absolute;

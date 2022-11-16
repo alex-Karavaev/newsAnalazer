@@ -1,0 +1,12 @@
+.clients__title {
+	font-family: 'Roboto Slab';
+	font-size: 30px;
+	line-height: 40px;
+	color: #1a1b22;
+}
+@media (min-width: 1024px) {
+	.clients__title {
+		font-size: 40px;
+		line-height: 46px;
+	}
+}
