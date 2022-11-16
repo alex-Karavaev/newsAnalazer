@@ -49,7 +49,8 @@ module.exports = {
 	output: {
 		filename: '[name].[contenthash].js',
 		path: path.resolve(__dirname, 'dist'),
-		assetModuleFilename: 'images/[name][ext][query]',
+		//	assetModuleFilename: 'images/[name][ext][query]',
+		publicPath: '/',
 		clean: true,
 	},
 	module: {
@@ -57,6 +58,10 @@ module.exports = {
 			{
 				test: /\.(png|svg|jpg|jpeg|gif)$/i,
 				type: 'asset/resource',
+				generator: {
+					filename: 'images/[hash][ext][query]',
+					publicPath: '/',
+				},
 			},
 			{
 				test: /\.(woff|woff2|eot|ttf|otf)$/i,

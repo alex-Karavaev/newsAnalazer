@@ -1,0 +1,18 @@
+.technology__container {
+	display: grid;
+	gap: 33px;
+	grid-template-columns: repeat(2, max-content);
+	justify-content: center;
+}
+@media (min-width: 768px) {
+	.technology__container {
+		display: flex;
+		gap: 0;
+		justify-content: space-between;
+	}
+}
+@media (min-width: 1024px) {
+	.technology__container {
+		max-width: 600px;
+	}
+}

@@ -1,0 +1,5 @@
+@media (min-width: 1024px) {
+	.clients__description {
+		max-width: 815px;
+	}
+}

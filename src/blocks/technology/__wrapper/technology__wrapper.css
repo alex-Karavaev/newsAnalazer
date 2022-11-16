@@ -1,0 +1,22 @@
+.technology__wrapper {
+	max-width: 544px;
+	padding: 32px 16px 38px;
+	margin: 0 auto;
+}
+@media (min-width: 768px) {
+	.technology__wrapper {
+		max-width: 688px;
+	}
+}
+@media (min-width: 1024px) {
+	.technology__wrapper {
+		display: flex;
+		justify-content: space-between;
+		max-width: 920px;
+	}
+}
+@media (min-width: 1280px) {
+	.technology__wrapper {
+		max-width: 1220px;
+	}
+}
