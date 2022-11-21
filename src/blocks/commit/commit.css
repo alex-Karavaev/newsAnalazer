@@ -1,0 +1,16 @@
+@import url(./__container/commit__container.css);
+@import url(./__title/commit__title.css);
+@import url(./__link/commit__link.css);
+@import url(./__btn/commit__btn.css);
+@import url(./__wrapper/commit__wrapper.css);
+@import url(./__card/commit__card.css);
+@import url(./__date/commit__date.css);
+@import url(./__details/commit__details.css);
+@import url(./__img/commit__img.css);
+@import url(./__name/commit__name.css);
+@import url(./__email/commit__email.css);
+@import url(./__description/commit__description.css);
+
+.commit {
+	background-color: #f5f6f7;
+}

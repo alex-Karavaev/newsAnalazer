@@ -1,3 +1,4 @@
+@import url(./__wrapper/header__wrapper.css);
 @import url(./__logo/header__logo.css);
 @import url(./__logo/_white/header__logo_white.css);
 @import url(./__logo/_black/header__logo_black.css);
@@ -9,12 +10,7 @@
 @import url(./__link/_black/header__link_black.css);
 
 .header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	position: absolute;
-	padding-left: 16px;
-	padding-right: 16px;
 	right: 0;
 	left: 0;
 }
@@ -25,28 +21,4 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-}
-@media (min-width: 768px) {
-	.header {
-		padding-left: 40px;
-		padding-right: 40px;
-	}
-}
-@media (min-width: 1024px) {
-	.header {
-		padding-left: 60px;
-		padding-right: 60px;
-	}
-}
-@media (min-width: 1280px) {
-	.header {
-		padding-left: 80px;
-		padding-right: 80px;
-	}
-}
-@media (min-width: 1280px) {
-	.header {
-		padding-left: 100px;
-		padding-right: 100px;
-	}
 }

@@ -1,0 +1,9 @@
+.commit__wrapper {
+	padding: 32px 0;
+}
+@media (min-width: 1280px) {
+	.commit__wrapper {
+		margin: 0 auto;
+		max-width: 1440px;
+	}
+}

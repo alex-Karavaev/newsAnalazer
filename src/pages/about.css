@@ -3,8 +3,24 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/clients/clients.css);
 @import url(../blocks/technology/technology.css);
-
+@import url(../blocks/author/author.css);
+@import url(../blocks/commit/commit.css);
 body {
 	margin: 0;
 	padding: 0;
+}
+
+.swiper-slide {
+	width: 288px;
+}
+@media (min-width: 768px) {
+	.swiper-slide {
+		width: 338px;
+	}
+}
+@media (min-width: 1280px) {
+	.swiper-slide {
+		width: 400px;
+		height: 228px;
+	}
 }

@@ -1,0 +1,24 @@
+.commit__container {
+	max-width: 544px;
+	padding: 0 16px 16px;
+	margin: 0 auto;
+}
+@media (min-width: 768px) {
+	.commit__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 32px;
+		max-width: 688px;
+	}
+}
+@media (min-width: 1024px) {
+	.commit__container {
+		max-width: 920px;
+	}
+}
+@media (min-width: 1280px) {
+	.commit__container {
+		max-width: 1220px;
+	}
+}

@@ -1,0 +1,9 @@
+.commit__title {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 40px;
+	color: #1a1b22;
+	margin: 0;
+}

@@ -1,0 +1,21 @@
+.commit__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 288px;
+	height: 56px;
+	border: 1px solid #1a1b22;
+	border-radius: 80px;
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 24px;
+	color: #1a1b22;
+	margin: 24px auto;
+}
+@media (min-width: 768px) {
+	.commit__btn {
+		display: none;
+	}
+}

@@ -1,0 +1,8 @@
+.commit__img {
+	width: 48px;
+	height: 48px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%;
+	grid-row: 1 / 3;
+}

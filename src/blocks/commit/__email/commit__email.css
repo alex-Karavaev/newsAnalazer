@@ -1,0 +1,9 @@
+.commit__email {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0;
+	grid-column: 2 / 3;
+	color: #1a1b22;
+}

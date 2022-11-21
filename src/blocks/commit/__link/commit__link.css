@@ -1,0 +1,15 @@
+.commit__link {
+	display: none;
+}
+@media (min-width: 768px) {
+	.commit__link {
+		display: inline;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 24px;
+		color: #1a1b22;
+		text-decoration: none;
+	}
+}
