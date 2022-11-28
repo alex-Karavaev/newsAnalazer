@@ -1,36 +1,36 @@
-const entries = [
+const pages = [
 	{
 		name: 'index',
 		entry: './src/index.js',
-	},
-	{
-		name: 'about',
-		entry: './src/pages/about.js',
-	},
-]
-
-const htmlPages = [
-	{
 		template: './src/index.html',
 		filename: 'index.html',
 		chunks: ['index'],
 	},
 	{
-		template: './src/pages/about.html',
-		filename: 'pages/about.html',
+		name: 'about',
+		entry: './src/pages/about/about.js',
+		template: './src/pages/about/about.html',
+		filename: 'pages/about/about.html',
 		chunks: ['about'],
+	},
+	{
+		name: 'analytics',
+		entry: './src/pages/analytics/analytics.js',
+		template: './src/pages/analytics/analytics.html',
+		filename: 'pages/analytics/analytics.html',
+		chunks: ['analytics'],
 	},
 ]
 
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-const entry = entries.reduce((entries, component) => {
+const entry = pages.reduce((entries, component) => {
 	entries[component.name] = path.join(__dirname, component.entry)
 	return entries
 }, {})
 
-const htmlGenerators = htmlPages.reduce((entries, component) => {
+const htmlGenerators = pages.reduce((entries, component) => {
 	entries.push(
 		new HtmlWebpackPlugin({
 			inject: true,
@@ -49,7 +49,6 @@ module.exports = {
 	output: {
 		filename: '[name].[contenthash].js',
 		path: path.resolve(__dirname, 'dist'),
-		//	assetModuleFilename: 'images/[name][ext][query]',
 		publicPath: '/',
 		clean: true,
 	},
