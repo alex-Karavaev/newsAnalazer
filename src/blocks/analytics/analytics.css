@@ -1,0 +1,6 @@
+@import url(./__wrapper/analytics__wrapper.css);
+@import url(./__title/analytics__title.css);
+@import url(./__subtitle/analytics__subtitle.css);
+.analytics {
+	padding-top: 72px;
+}

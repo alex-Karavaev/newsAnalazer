@@ -1,0 +1,11 @@
+@import url(./__title/table__title.css);
+@import url(./__row/table__row.css);
+@import url(./__cell/table__cell.css);
+@import url(./__date/table__date.css);
+@import url(./__value/table__value.css);
+@import url(./__mention/table__mention.css);
+.table {
+	border-collapse: separate;
+	border-spacing: 0 24px;
+	width: 100%;
+}

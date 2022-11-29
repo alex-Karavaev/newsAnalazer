@@ -1,0 +1,11 @@
+.table__headline {
+	position: relative;
+}
+.table__headline::after {
+	content: '';
+	position: absolute;
+	border-bottom: 1px solid #000000;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}

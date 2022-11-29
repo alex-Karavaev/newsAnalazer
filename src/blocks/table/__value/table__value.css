@@ -1,0 +1,12 @@
+.table__value {
+	display: block;
+	padding-left: 6px;
+	background-color: #2f71e5;
+	color: #ffffff;
+	width: 25%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 16px;
+}

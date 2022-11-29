@@ -1,0 +1,6 @@
+.table__cell:first-child {
+	flex-basis: 64px;
+}
+.table__cell:last-child {
+	flex-grow: 9999;
+}
