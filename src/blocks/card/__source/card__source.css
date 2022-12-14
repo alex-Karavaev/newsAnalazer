@@ -2,9 +2,9 @@
 	font-family: 'Roboto Slab';
 	font-style: normal;
 	font-weight: 700;
+	letter-spacing: 0.4px;
 	font-size: 16px;
 	line-height: 20px;
-	letter-spacing: 0.4px;
 	text-transform: uppercase;
 	color: #b6bcbf;
 }

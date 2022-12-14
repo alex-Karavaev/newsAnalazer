@@ -1,4 +1,5 @@
 @import url(./__wrapper/news__wrapper.css);
+@import url(./__not-found/news__not-found.css);
 @import url(./__headlines/news__headlines.css);
 @import url(./__title/news__title.css);
 @import url(./__analytics/news__analytics.css);

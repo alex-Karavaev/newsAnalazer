@@ -3,7 +3,7 @@ import Swiper, { Navigation, Pagination } from 'swiper'
 // import Swiper and modules styles
 import 'swiper/css'
 import 'swiper/css/navigation'
-import '../blocks/swiper-pagination/swiper-pagination.css'
+import '../../blocks/swiper-pagination/swiper-pagination.css'
 
 function marginSwiper(maxWidth) {
 	const elementWidth = document.documentElement.clientWidth

@@ -1,5 +1,6 @@
 .news__analytics {
 	display: inline-block;
+	text-decoration: none;
 	font-family: 'Roboto Medium';
 	font-style: normal;
 	font-size: 18px;

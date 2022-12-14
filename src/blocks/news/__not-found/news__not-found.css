@@ -1,0 +1,29 @@
+.news__not-found {
+	display: none;
+	justify-content: center;
+}
+.news__not-found_visible {
+	display: grid;
+}
+.news__not-found-img {
+	margin: 0 auto;
+}
+.news__not-found-title {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 30px;
+	text-align: center;
+	color: #1a1b22;
+}
+.news__not-found-desc {
+	max-width: 356px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	color: #b6bcbf;
+}

@@ -8,16 +8,16 @@ const pages = [
 	},
 	{
 		name: 'about',
-		entry: './src/pages/about/about.js',
-		template: './src/pages/about/about.html',
-		filename: 'pages/about/about.html',
+		entry: './src/about/about.js',
+		template: './src/about/about.html',
+		filename: './about/about.html',
 		chunks: ['about'],
 	},
 	{
 		name: 'analytics',
-		entry: './src/pages/analytics/analytics.js',
-		template: './src/pages/analytics/analytics.html',
-		filename: 'pages/analytics/analytics.html',
+		entry: './src/analytics/analytics.js',
+		template: './src/analytics/analytics.html',
+		filename: './analytics/analytics.html',
 		chunks: ['analytics'],
 	},
 ]
@@ -47,7 +47,7 @@ module.exports = {
 
 	plugins: [...htmlGenerators],
 	output: {
-		filename: '[name].[contenthash].js',
+		filename: '[name].js',
 		path: path.resolve(__dirname, 'dist'),
 		publicPath: '/',
 		clean: true,
@@ -58,7 +58,7 @@ module.exports = {
 				test: /\.(png|svg|jpg|jpeg|gif)$/i,
 				type: 'asset/resource',
 				generator: {
-					filename: 'images/[hash][ext][query]',
+					filename: 'images/[name][ext][query]',
 					publicPath: '/',
 				},
 			},
@@ -66,6 +66,7 @@ module.exports = {
 				test: /\.(woff|woff2|eot|ttf|otf)$/i,
 				type: 'asset/resource',
 			},
+
 			{
 				test: /\.html$/i,
 				loader: 'html-loader',

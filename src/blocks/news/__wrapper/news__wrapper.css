@@ -1,5 +1,9 @@
 .news__wrapper {
+	display: none;
 	margin: 0 auto;
 	max-width: max-content;
 	padding: 32px 16px 44px;
+}
+.news__wrapper_visible {
+	display: block;
 }

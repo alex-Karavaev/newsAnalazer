@@ -1,4 +1,9 @@
 .search__text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
 	padding: 0;
 	padding-left: 16px;
 	border: 0;
@@ -6,6 +11,9 @@
 	height: 56px;
 	border-radius: 100px;
 	margin-bottom: 16px;
+}
+.search__text_border {
+	border: 2px solid red;
 }
 .search__text::placeholder {
 	font-family: 'Roboto';

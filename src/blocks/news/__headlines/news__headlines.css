@@ -1,6 +1,13 @@
+.news__headlines {
+	display: none;
+	flex-direction: column;
+}
+.news__headlines_visible {
+	display: flex;
+}
 @media (min-width: 768px) {
 	.news__headlines {
-		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
 	}
 }
