@@ -10,7 +10,6 @@ function marginSwiper(maxWidth) {
 	return (elementWidth - maxWidth) / 2
 }
 
-// init Swiper:
 const swiper = new Swiper('.swiper', {
 	modules: [Navigation, Pagination],
 	slidesPerView: 'auto',
@@ -27,7 +26,6 @@ const swiper = new Swiper('.swiper', {
 	},
 	breakpoints: {
 		768: {
-			slidesPerView: 'auto',
 			centeredSlides: false,
 			slidesOffsetBefore: marginSwiper(688),
 			slidesOffsetAfter: marginSwiper(688),
